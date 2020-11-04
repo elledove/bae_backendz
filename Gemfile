@@ -14,7 +14,14 @@ gem 'puma', '~> 4.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+ gem 'bcrypt', '~> 3.1.7'
+
+ #will allow me to create fake data
+ gem 'faker'
+
+
+ #will serialize data and allow me to conrol what users can and can't see in api
+ gem 'active_model_serializers', '~> 0.10.2'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
